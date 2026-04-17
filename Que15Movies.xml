@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<movie>
+<Category name="classical">
+ <MovieTitle>Dhadkan</MovieTitle >
+ <ActorName>Akshay Kumar</ActorName>
+ <ReleaseYear>2018</ReleaseYear>
+</Category>
+<Category name="Horror">
+ <MovieTitle>Bhoothnath</MovieTitle >
+ <ActorName>Amitab bachan</ActorName>
+ <ReleaseYear>2008</ReleaseYear>
+</Category>
+ <Category name="Action">
+ <MovieTitle>War</MovieTitle >
+ <ActorName>Hritik</ActorName>
+ <ReleaseYear>2019</ReleaseYear>
+</Category>
+</movie>    

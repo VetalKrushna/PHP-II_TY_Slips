@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UFT"?>
+<?xml-stylesheet type="text/css" href="Que9.css"?>
+<ItemDetail>
+   <Item>
+     <ItemName>Pen</ItemName>
+     <ItemPrice>5</ItemPrice>
+     <Quantity>10</Quantity>
+   </Item>
+   <Item>
+     <ItemName>Pencil</ItemName>
+     <ItemPrice>5</ItemPrice>
+     <Quantity>30</Quantity>
+   </Item>
+   <Item>
+     <ItemName>Book</ItemName>
+     <ItemPrice>250</ItemPrice>
+     <Quantity>3</Quantity>
+   </Item>
+</ItemDetail>
+
+
