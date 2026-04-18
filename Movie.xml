@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Movieinfo>
+ <Movie>
+   <Movieno>01</Movieno>
+   <MovieTitle>Bahubali</MovieTitle>
+   <MovieActor>Prabhas</MovieActor>
+   <MovieRyear>2015</MovieRyear>
+ </Movie>
+  <Movie>
+   <Movieno>02</Movieno>
+   <MovieTitle>Bhoothnath</MovieTitle>
+   <MovieActor>Abithab Bachan</MovieActor>
+   <MovieRyear>2017</MovieRyear>
+ </Movie>
+ <Movie>
+   <Movieno>03</Movieno>
+   <MovieTitle>Dhadkan</MovieTitle>
+   <MovieActor>Sunil Shetty</MovieActor>
+   <MovieRyear>2012</MovieRyear>
+ </Movie>
+ <Movie>
+   <Movieno>04</Movieno>
+   <MovieTitle>Heropanti</MovieTitle>
+   <MovieActor>Tiger</MovieActor>
+   <MovieRyear>2018</MovieRyear>
+ </Movie>
+  
+</Movieinfo>

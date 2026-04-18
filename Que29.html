@@ -1,0 +1,47 @@
+
+
+<!--29. Write a Java Script Program to show Hello Good Morning message onload
+event using alert box and display the Student registration from.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+
+<!-- onload event triggers the JavaScript function -->
+<body onload="welcomeMessage()">
+
+    <h2>Student Registration Form</h2>
+    
+    <form action="#" method="POST">
+            <label>Full Name:</label>
+            <input type="text" name="student_name" required>
+      
+            <label>Email Address:</label>
+            <input type="email" name="email" required>
+       
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+       
+            <label>Course:</label>
+            <select name="course">
+                <option value="BCA">BCA</option>
+                <option value="BSc">BSc CS</option>
+                <option value="MCA">MCA</option>
+            </select>
+        
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+    </form>
+
+</body>
+<script>
+    // Function to show the alert message
+    function welcomeMessage()
+    {
+        alert("Hello Good Morning!");
+    }
+</script
+</html>

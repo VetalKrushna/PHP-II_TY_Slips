@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Validation</title>
+</head>
+<body>
+
+    <h3>User Login</h3>
+    <!-- The return validate() is crucial to stop/allow submission -->
+    <form onsubmit="return validate()">
+        Username: <input type="text" id="user"><br><br>
+        Password: <input type="password" id="pass"><br><br>
+        <input type="submit" value="Login">
+    </form>
+
+    <p id="msg" style="color: red;"></p>
+
+</body>
+<script>
+    function validate()
+     {
+        var user = document.getElementById("user").value;
+        var pass = document.getElementById("pass").value;
+        var error = document.getElementById("msg");
+
+        // Check if fields are empty
+        if (user == "" || pass == "")
+         {
+            error.innerHTML = "Error: All fields are required!";
+            error.style.color = "red";
+            return false; // Stops form submission
+        }
+
+        // Specific criteria: Username must be at least 5 chars
+        // Password must be at least 8 chars
+        if (user.length < 5) 
+        {
+            error.innerHTML = "Username must be at least 5 characters.";
+            return false;
+        }
+
+        if (pass.length < 8) 
+        {
+            error.innerHTML = "Password must be at least 8 characters.";
+            return false;
+        }
+
+        alert("Validation Successful! Logging in...");
+        return true; // Allows form to submit
+    }
+</script>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<studinfo>
+ <stud>
+ <rno>101</rno>
+ <name>Shree</name>
+ <address>Shrirampur</address>
+ </stud>
+ <stud>
+ <rno>102</rno>
+ <name>Swami</name>
+ <address>Newasa</address>
+ </stud>
+ <stud>
+ <rno>103</rno>
+ <name>Samartha</name>
+ <address>Rahuri</address>
+ </stud>
+ <stud>
+ <rno>104</rno>
+ <name>Om</name>
+ <address>Nashik</address>
+ </stud>
+ <stud>
+ <rno>105</rno>
+ <name>Ram</name>
+ <address>Pune</address>
+ </stud>
+</studinfo>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bookstore>
+    <Yoga>
+        <Book>
+            <Book_Title>Light on Yoga</Book_Title>
+            <Book_Author>B.K.S. Iyengar</Book_Author>
+            <Book_Price>450</Book_Price>
+        </Book>
+    </Yoga>
+
+    <Story>
+        <Book>
+            <Book_Title>The Jungle Book</Book_Title>
+            <Book_Author>Rudyard Kipling</Book_Author>
+            <Book_Price>200</Book_Price>
+        </Book>
+    </Story>
+
+    <Technical>
+        <Book>
+            <Book_Title>Java Programming</Book_Title>
+            <Book_Author>ABC</Book_Author>
+            <Book_Price>300</Book_Price>
+        </Book>
+        <Book>
+            <Book_Title>PHP Fundamentals</Book_Title>
+            <Book_Author>XYZ</Book_Author>
+            <Book_Price>500</Book_Price>
+        </Book>
+        <Book>
+            <Book_Title>Python Basics</Book_Title>
+            <Book_Author>PQR</Book_Author>
+            <Book_Price>400</Book_Price>
+        </Book>
+    </Technical>
+</Bookstore>
